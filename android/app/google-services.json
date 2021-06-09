@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842589252003",
+    "firebase_url": "https://loja-virtual-d424b.firebaseio.com",
+    "project_id": "loja-virtual-d424b",
+    "storage_bucket": "loja-virtual-d424b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842589252003:android:69b19f69d0a8ae082b9216",
+        "android_client_info": {
+          "package_name": "com.paulino.lojinha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842589252003-n02tn6cv794pfh4vjo7v80lr3dmq7eg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBISr4Mx-fTtvLdUFPN1-rMvvwOAHoScXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842589252003-n02tn6cv794pfh4vjo7v80lr3dmq7eg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
