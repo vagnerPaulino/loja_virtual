@@ -1,9 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:lojinha/helpers/firebase_errors.dart';
 import 'package:lojinha/models/user.dart';
 
-class UserManager {
+class UserManager extends ChangeNotifier{
 
   final FirebaseAuth auth = FirebaseAuth.instance;
 
@@ -24,5 +25,6 @@ class UserManager {
 
   void setLoading(bool value){
     loading = value;
+    notifyListeners();
   }
 }
